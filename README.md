@@ -52,7 +52,7 @@ Para prévias de compartilhamento em redes sociais, adicione `og:url` e `og:imag
 
 ## Conteúdo comercial
 
-20h em cinco encontros, às terças e quintas, das 18h às 22h. Consulte as datas com a COTI.
+20h de curso, sem dias da semana ou horários fixos na landing page. Consulte a disponibilidade das turmas com a COTI.
 Cartão: 10 × R$ 140,00, total de R$ 1.400,00.
 Boleto: entrada de R$ 154,00 + 36 × R$ 60,49, total de R$ 2.331,64.
 Benefícios adicionais foram extraídos do cartaz enviado: aulas no Zoom/presenciais, gravações e material didático e possibilidade de refazer por um ano. Confirme as condições comerciais antes da divulgação.
@@ -83,4 +83,10 @@ Diagramas de arquitetura e RAG: construídos em HTML/CSS e SVG para esta landing
 
 ## Revisão 03
 
-Datas de início e fim e calendário removidos, inclusive dos metadados e da mensagem do WhatsApp. Dias da semana, horário e duração mantidos. Arte original de robô amigável adicionada como fundo discreto; arquivo local `assets/robo-ia-fundo.png`.
+Datas de início e fim e calendário removidos, inclusive dos metadados e da mensagem do WhatsApp. Duração mantida; dias da semana e horários removidos na revisão 04. Arte original de robô amigável adicionada como fundo discreto; arquivo local `assets/robo-ia-fundo.png`.
+
+## Revisão 04 — página para qualquer turma
+
+- Removidos os dias da semana, horários e número fixo de encontros de toda a página.
+- Ícones SVG ilustrativos e locais nas tecnologias e padrões, acompanhados de seus nomes.
+- Botões em verde esmeralda com texto branco, fonte Sora e pesos locais.

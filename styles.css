@@ -40,3 +40,20 @@ body{font-size:17px;line-height:1.8}.header-inner{height:90px}nav{font-size:13px
 @media(max-width:600px){.ai-art .wrap{min-height:290px;padding-block:35px}.ai-art h2{max-width:65%;font-size:23px;line-height:1.4}.ai-art .eyebrow{max-width:65%;font-size:9px}.ai-art:before{background-image:linear-gradient(90deg,#06162bef 0%,#06162b88 48%,#06162b26 100%),url('assets/robo-ia-fundo.png');background-size:cover;background-position:center,63% 45%;opacity:.8}}
 .ai-art:before{background-size:cover,auto 380px;background-repeat:no-repeat;background-position:center,right center}
 @media(max-width:600px){.ai-art:before{background-size:cover,auto 350px;background-position:center,right center}}
+
+/* Revisão 04: tecnologia em ícones e chamadas de ação mais legíveis. */
+:root{--green:#087f5b;--green-hover:#066447}
+.button{font-family:Sora,Manrope,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1.5;letter-spacing:-.025em;color:#fff;background:var(--green);border:1px solid #36ad854d;box-shadow:0 5px 16px #012b2224;gap:16px}
+.button:hover{background:var(--green-hover);color:white;box-shadow:0 8px 22px #012b2233}
+.button:active{transform:translateY(0)}
+.button:focus-visible{outline:3px solid #6fe5bc;outline-offset:4px}
+.header .button.small{font-size:12px;font-weight:700;padding:13px 16px}
+.price-card .button{font-size:13px;line-height:1.55}
+.hero .dot{background:#73e3b6;box-shadow:0 0 12px #73e3b64d}
+.tech-tags{gap:12px;align-items:stretch}
+.tech-tags .tech-tag{display:inline-flex;align-items:center;gap:12px;padding:14px 18px;background:#fff;border:1px solid #ccd9e8;border-radius:8px;box-shadow:0 2px 5px #0c2f5105;line-height:1.5;transition:border-color .2s,box-shadow .2s}
+.tech-tags .tech-tag:hover{border-color:#88a9cc;box-shadow:0 4px 14px #0c2f510d}
+.tech-icon{width:27px;height:27px;flex-shrink:0;color:var(--tech-color,#0755b5)}
+.tech-tags .tech-name{display:inline;padding:0;border:0;border-radius:0;background:none;color:#203b56;font-size:14px;font-weight:600;box-shadow:none}
+@media(max-width:800px){.tech-tags .tech-tag{padding:12px 15px;gap:10px}.tech-tags .tech-name{font-size:13px}}
+@media(max-width:600px){.button,.actions .button{font-size:13px;line-height:1.6;padding:16px 18px}.price-card .button{font-size:12px}.mobile-cta.button{font-size:13px;padding:14px 12px}.tech-tags{gap:9px}.tech-tags .tech-tag{padding:11px 12px;gap:9px}.tech-icon{width:24px;height:24px}.tech-tags .tech-name{font-size:12px}}
